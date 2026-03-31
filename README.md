@@ -41,6 +41,7 @@ Orquestração (Airflow)
 📁 Estrutura do projeto
 
 etl_project/
+
 │
 ├── dags/
 │   └── etl_customers_dag.py
