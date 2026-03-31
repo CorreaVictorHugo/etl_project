@@ -128,5 +128,6 @@ estruturação de projetos de dados
 
 
 🏁 Conclusão
+
 Este projeto demonstra, de forma prática, como construir um pipeline de dados automatizado, aplicando conceitos fundamentais de engenharia de dados.
 Mesmo sendo um projeto simples, ele representa um fluxo real utilizado em ambientes profissionais, servindo como base para soluções mais complexas.
