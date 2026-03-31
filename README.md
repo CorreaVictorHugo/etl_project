@@ -113,6 +113,7 @@ registrar logs
 permitir monitoramento e reexecução
 
 📸 Evidências do projeto
+
 Execução da DAG com sucesso no Airflow
 Dados carregados no banco PostgreSQL
 Pipeline visual representado na interface
