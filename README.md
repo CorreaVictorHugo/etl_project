@@ -3,13 +3,11 @@ Pipeline ETL com Apache Airflow, Python e PostgreSQL
 📌 Sobre o projeto
 
 Este projeto tem como objetivo demonstrar, na prática, a construção de um pipeline de dados simples utilizando Python, PostgreSQL e Apache Airflow.
-
 O fluxo implementado segue o processo de ETL (Extract, Transform, Load), onde os dados são extraídos de um banco de origem, armazenados em um arquivo intermediário e carregados em um banco de destino, com toda a execução orquestrada pelo Airflow.
 
 🎯 Objetivo
 
 Simular um cenário real de engenharia de dados, automatizando o fluxo de dados entre dois bancos PostgreSQL e garantindo:
-
 execução ordenada das tarefas
 controle de dependências
 monitoramento do pipeline
@@ -57,16 +55,14 @@ etl_project/
 └── northwind.sql
 
 🔄 Fluxo do pipeline
-
 O pipeline é composto por duas tarefas principais:
-    extract_customers → load_customers
+extract_customers → load_customers
 
 extract_customers: extrai dados da tabela customers do banco de origem e gera um arquivo CSV
 load_customers: lê o CSV e insere os dados no banco de destino
 
 ▶️ Como executar o projeto
-1. Subir os bancos PostgreSQL
-
+1. Subir os bancos PostgreSQL   
 docker compose up -d
 
 2. Importar base Northwind
@@ -101,14 +97,13 @@ Execução controlada pelo Airflow
 
 
 🧩 O que é o Apache Airflow
-
 O Apache Airflow é uma ferramenta de orquestração de workflows que permite definir, agendar e monitorar pipelines de dados.
 Neste projeto, ele foi responsável por:
-
 organizar a execução das tarefas
 garantir a ordem correta do fluxo
 registrar logs
 permitir monitoramento e reexecução
+
 📸 Evidências do projeto
 Execução da DAG com sucesso no Airflow
 Dados carregados no banco PostgreSQL
@@ -124,6 +119,5 @@ estruturação de projetos de dados
 
 
 🏁 Conclusão
-
 Este projeto demonstra, de forma prática, como construir um pipeline de dados automatizado, aplicando conceitos fundamentais de engenharia de dados.
 Mesmo sendo um projeto simples, ele representa um fluxo real utilizado em ambientes profissionais, servindo como base para soluções mais complexas.
