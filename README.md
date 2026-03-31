@@ -111,6 +111,7 @@ Pipeline visual representado na interface
 
 
 📚 Aprendizados
+
 construção de pipelines ETL
 integração Python + PostgreSQL
 uso de Docker para ambientes isolados
